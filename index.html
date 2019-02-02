@@ -10,18 +10,36 @@
     <div>Hola esto es un repositorio donde tenemos que</div>
     <ul>
         <li>Inicializar un repositorio</li>
-        <li>    • Inicializamos el repositorio</li>
-        <li>    • Enlazar con un repositorio remoto</li>
-        <li>    • Obtener un repositorio remoto</li>
-        <li>    • Permisos de acceso a un repositorio remoto</li>
-        <li>    • Listando los últimos cambios del repositorio</li>
-        <li>    • Obtener los últimos cambios del repositorio remoto</li>
-        <li>    • Examinar el historial de cambios de un archivo</li>
-        <li>    • Crear una nueva rama en el repositorio remoto</li>
-        <li>    • Diferencias entre 2 ramas de nuestro proyecto</li>
-        <li>    • Manejar etiquetas (tags)</li>
-        <li>    • Crear una rama local en el repositorio remoto</li>
-        <li>    • ¿Quién hizo qué? Uso de: git blame</li>
+        <li>• Inicializamos el repositorio</li>
+        <li>git init</li>
+        <li>git add .</li>
+        <li>git commit -m "primer commit"</li>
+        <li>• Enlazar con un repositorio remoto</li>
+        <li>git remote add origin https://github.com/ernex24/gitClase.git
+        <li>git push -u origin master</li>
+        <li>• Obtener un repositorio remoto</li>
+        <li>git clone https://github.com/ernex24/gitClase.git</li>
+        <li>• Permisos de acceso a un repositorio remoto</li>
+        <li>git config --global user.name "Ernesto Perez"</li>
+        <li>git config --global user.email ernex24@gmail.com</li>
+        <li>git config --global core.editor vim</li>
+        <li>git config --global merge.tool vimdiff</li>
+        <li>• Listando los últimos cambios del repositorio</li>
+        <li>git log</li>
+        <li>• Obtener los últimos cambios del repositorio remoto</li>
+        <li>git pull</li>
+        <li>• Examinar el historial de cambios de un archivo</li>
+        <li> git log</li>
+        <li>• Crear una nueva rama en el repositorio remoto</li>
+        <li>• Diferencias entre 2 ramas de nuestro proyecto</li>
+        <li>git diff master..nuevaRama</li>
+        <li>• Manejar etiquetas (tags)</li>
+        <li>git tag 1.0.0</li>
+        <li>git push tag</li>
+        <li>• Crear una rama local en el repositorio remoto</li>
+        <li> git checkout -b nuevaRama</li>
+        <li>git push origin nuevaRama</li>
+        <li>• ¿Quién hizo qué? Uso de: git blame</li>
     </ul>
 </body>
 </html>
